@@ -4,3 +4,4 @@ permalink: /blog/:year/:month/:day/:title
 encoding: UTF-8
 gems:
   - jekyll-sitemap
+google_analytics: UA-86883071-1
