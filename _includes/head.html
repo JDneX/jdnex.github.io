@@ -1,8 +1,15 @@
 <head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-      {% if jekyll.environment == 'production' %}
-      {% include analytics.html %}
-      {% endif %}
+	<title>{{ page.title }}</title>
+	<!-- link to main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({
+		  google_ad_client: "ca-pub-8521889456404188",
+		  enable_page_level_ads: true
+		});
+	</script>
+	{% if jekyll.environment == 'production' %}
+	{% include analytics.html %}
+	{% endif %}
 </head>
